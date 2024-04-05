@@ -4,5 +4,5 @@ function lengthOfUrl(n) {
 }
 
 let URL = window.location.href
-alert(lengthOfUrl(URL));
+alert("The length of the URL is: "+lengthOfUrl(URL));
 
