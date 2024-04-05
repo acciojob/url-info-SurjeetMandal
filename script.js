@@ -3,5 +3,6 @@ function lengthOfUrl(n) {
 	return res;
 }
 
-let URL = prompt("Enter the URL :");
+let URL = window.location.href
 alert(lengthOfUrl(URL));
+
