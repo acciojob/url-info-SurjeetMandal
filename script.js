@@ -4,4 +4,4 @@ function lengthOfUrl(n) {
 }
 
 let URL = prompt("Enter the URL :");
-alert(n);
+alert(lengthOfUrl(URL));
